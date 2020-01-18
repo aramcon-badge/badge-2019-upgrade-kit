@@ -15,3 +15,12 @@ Note: if you only want to flash the firmware from a HEX file, you only need the 
 Open the [upgrade-kit-firmware](upgrade-kit-firmware/) in the Arduino IDE, and then go to "Tools" → "Board" and 
 choose `Generic STM32F0 series`. Then under "Board part number" choose `STM32F030F4 Demo board (internal RC oscillator)`.
 Finally, click on "Upload" (Ctrl+U) to compile and flash the firmware to the board through STM32CubeProgrammer.
+
+## Board Installation
+
+You'll need the following hardware to secure the upgrade kit to your badge:
+
+1. 2 x [3D Printed Spacer](parts/spacer.stl). 
+2. 2 x M2.5x18 screws with round head (longer ones will also work)
+3. 2 x M2.5 Nut and washer
+
